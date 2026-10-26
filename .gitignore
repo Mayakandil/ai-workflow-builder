@@ -1,19 +1,23 @@
 # Python
 venv/
+.venv/
 __pycache__/
 *.pyc
+.pytest_cache/
 
 # Environment variables and secrets
 .env
 .env.*
 !.env.example
 
-# React
+# Frontend
 node_modules/
 dist/
+.vite/
 
 # macOS
 .DS_Store
 
 # Editor
 .vscode/
+.idea/
